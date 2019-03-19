@@ -17,5 +17,5 @@ jdk:
   - oraclejdk11
 
 script:
-  - gradle wrapper --gradle-version=5.1.1
+  - chmod +x gradlew
   - ./gradlew build --scan -s
