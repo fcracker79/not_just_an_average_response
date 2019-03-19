@@ -9,15 +9,15 @@ import java.util.stream.Collectors;
 
 public class JobRequirement {
     @MustHaveLanguages(values={"en", "de"})
-    private final Set<String> languages = new HashSet<>();
+    final Set<String> languages = new HashSet<>();
     @AssertTrue
-    private volatile boolean willingToRelocate;
+    volatile boolean willingToRelocate;
     @MustHaveInterests(values={InterestEnum.FUTURE_DEVELOPMENT_OF_HIGH_LEVEL_SPORT, InterestEnum.TECHNOLOGY})
-    private volatile EnumSet<InterestEnum> interests = EnumSet.noneOf(InterestEnum.class);
+    volatile EnumSet<InterestEnum> interests = EnumSet.noneOf(InterestEnum.class);
     @AssertTrue
-    private volatile boolean professionalJavaExperience;
+    volatile boolean professionalJavaExperience;
     @AssertTrue
-    private volatile boolean computerScienceDegree;
+    volatile boolean computerScienceDegree;
 
     private JobRequirement () {}
 
