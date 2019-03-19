@@ -16,8 +16,8 @@ jdk:
   - oraclejdk9
   - oraclejdk11
 
-script:
-  - gradle wrapper
-    #  - ./gradlew build --scan -s
-  - ./gradlew test -i
+#script:
+#  - gradle wrapper
+#  - ./gradlew build --scan -s
+#  - ./gradlew test -i
 
