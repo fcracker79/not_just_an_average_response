@@ -27,7 +27,7 @@ public class Main {
                             } else {
                                 System.out.println("Sorry I cannot apply because:");
                                 for (ConstraintViolation v : validations) {
-                                    System.out.format("%s: %s\n", v.getPropertyPath(), v.getMessage());
+                                    System.out.format(" - %s: %s\n", v.getPropertyPath(), v.getMessage());
                                 }
                             }
                         }
