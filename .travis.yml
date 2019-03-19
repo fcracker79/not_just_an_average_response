@@ -15,7 +15,7 @@ jdk:
   - oraclejdk11
 
 script:
-  - chmod +x gradlew
+  - gradle wrapper
     #  - ./gradlew build --scan -s
   - ./gradlew test -i
 
