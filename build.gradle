@@ -4,10 +4,6 @@ plugins {
 
 sourceCompatibility = 1.8
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '5.1.1'
-}
-
 repositories {
     mavenCentral()
 }
