@@ -12,6 +12,10 @@ cache:
 
 jdk:
   - oraclejdk8
+  - oraclejdk9
+  - oraclejdk10
+  - oraclejdk11
 
 script:
+  - gradle wrapper --gradle-version=5.1.1
   - ./gradlew build --scan -s
