@@ -18,4 +18,6 @@ jdk:
 
 script:
   - chmod +x gradlew
-  - ./gradlew build --scan -s
+    #  - ./gradlew build --scan -s
+  - ./gradlew test -i
+
